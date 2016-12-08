@@ -51,13 +51,18 @@ public class WitdhRatioHeightRelativeLayout extends RelativeLayout {
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        setMeasuredDimension(getMeasureSize(widthMeasureSpec, true), getMeasureSize(heightMeasureSpec, false));
         //根据所给的widthHeightRatio重新利用MeasureSpec重新构建新的widthMeasureSpec,heightMeasureSpec
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         String ratioStr = String.valueOf(widthHeightRatio);
         widthMeasureSpec = MeasureSpec.makeMeasureSpec(widthSize, MeasureSpec.EXACTLY);
         heightMeasureSpec = MeasureSpec.makeMeasureSpec(widthSize * ratioStr.charAt(0) / ratioStr.charAt(1), MeasureSpec.EXACTLY);
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+        /**
+         * 如果自己不在最后加上super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+         * 就要自己调用下面这个方法，自己加上下面这个方法的好处是自己能自定义getMeasureSize的规则，如果有需要就要，
+         * 他这个方法的作用就是设置实际大小。
+         * setMeasuredDimension(getMeasureSize(widthMeasureSpec, true), getMeasureSize(heightMeasureSpec, false));
+         */
     }
 
     /**
