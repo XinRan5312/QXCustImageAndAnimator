@@ -59,6 +59,9 @@ public class MainActivity extends ListActivity {
         } else if (position == 7) {
             startActivity(new Intent(getApplicationContext(),
                     OtherDemo.class));
+        }else if(position==8){
+            startActivity(new Intent(getApplicationContext(),
+                    OtherMaskViewActivity.class));
         }
     }
 
@@ -72,6 +75,7 @@ public class MainActivity extends ListActivity {
         data.add(createItem("KeyboardLayout", "监听输入法键盘的弹起与隐藏"));
         data.add(createItem("DragListView", "可拖拽的ListView"));
         data.add(createItem("其他", ""));
+        data.add(createItem("MaskView-Other","直接放一张图片做Mask"));
 
         return data;
     }

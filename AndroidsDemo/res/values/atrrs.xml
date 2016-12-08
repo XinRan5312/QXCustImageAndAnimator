@@ -3,4 +3,8 @@
     <declare-styleable name="WitdhRatioHeightLayout">
         <attr name="width_height_ratio" format="integer"></attr>
     </declare-styleable>
+    <declare-styleable name="MaskImageOne">
+        <attr name="mask_resource_id" format="integer"></attr>
+        <attr name="src_resource_id" format="integer"></attr>
+    </declare-styleable>
 </resources>
