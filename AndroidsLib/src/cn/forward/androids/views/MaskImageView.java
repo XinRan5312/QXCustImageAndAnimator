@@ -46,8 +46,6 @@ public class MaskImageView extends ImageView {
 
         TypedArray a = getContext().obtainStyledAttributes(attrs,
                 R.styleable.MaskImageView);
-
-
         mIsIgnoreAlpha = a.getBoolean(R.styleable.MaskImageView_miv_is_ignore_alpha, mIsIgnoreAlpha);
         mIsShowMaskOnClick = a.getBoolean(R.styleable.MaskImageView_miv_is_show_mask_on_click, mIsShowMaskOnClick);
         mShadeColor = a.getColor(R.styleable.MaskImageView_miv_mask_color, mShadeColor);

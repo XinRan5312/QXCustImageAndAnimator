@@ -4,7 +4,14 @@
         <attr name="width_height_ratio" format="integer"></attr>
     </declare-styleable>
     <declare-styleable name="MaskImageOne">
-        <attr name="mask_resource_id" format="integer"></attr>
-        <attr name="src_resource_id" format="integer"></attr>
+        <attr name="mask_resource_id" format="reference"></attr>
+        <!--string demension integer color boolean float  enum-->
+        <declare-styleable name="名称">
+            <attr name="orientation">
+                <enum name="horizontal" value="0" />
+                <enum name="vertical" value="1" />
+            </attr>
+        </declare-styleable>
+        <attr name="src_resource_id" format="reference"></attr>
     </declare-styleable>
 </resources>
