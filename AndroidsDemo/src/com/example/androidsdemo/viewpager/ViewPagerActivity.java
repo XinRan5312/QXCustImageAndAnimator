@@ -53,6 +53,7 @@ public class ViewPagerActivity extends Activity {
         viewPager.setOutlineColor(0xff0000ff);
         viewPager.setAdapter(new MyAdapter());
         viewPager.setOnPageChangeListener(null);
+        setViewPagerAnimatorTime(300);
     }
 
     class MyAdapter extends PagerAdapter {
@@ -96,6 +97,7 @@ public class ViewPagerActivity extends Activity {
         try {
             Field field = ViewPager.class.getDeclaredField("mScroller");
             field.setAccessible(true);
+            //new LinearInterpolator()不同的插值器会有不同的效果
             MSFixedSpeedScroller scroller = new MSFixedSpeedScroller(viewPager.getContext(), new LinearInterpolator());
             field.set(viewPager, scroller);
             scroller.setmDuration(duration);
