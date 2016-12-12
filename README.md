@@ -16,3 +16,4 @@
   * KeyboardLayout  监听输入法键盘的弹起与隐藏
   
   * DragListView  可拖拽的ListView
+  2016-12-12:ViewPager的各种动画大集结

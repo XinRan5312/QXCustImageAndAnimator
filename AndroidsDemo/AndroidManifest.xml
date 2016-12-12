@@ -49,6 +49,12 @@
         <activity
             android:name=".OtherMaskViewActivity"
             android:label="@string/app_name"/>
+        <activity
+            android:name=".viewpager.ViewPagerActivity"
+            android:label="@string/app_name"/>
+        <activity
+            android:name=".viewpager.ViewPagerTransformerActivity"
+            android:label="@string/app_name"/>
     </application>
 
 </manifest>

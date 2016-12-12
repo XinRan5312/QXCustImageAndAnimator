@@ -13,6 +13,9 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.example.androidsdemo.viewpager.ViewPagerActivity;
+import com.example.androidsdemo.viewpager.ViewPagerTransformerActivity;
+
 import cn.forward.androids.utils.LogUtil;
 
 /**
@@ -62,6 +65,12 @@ public class MainActivity extends ListActivity {
         }else if(position==8){
             startActivity(new Intent(getApplicationContext(),
                     OtherMaskViewActivity.class));
+        }else if(position==9){
+            startActivity(new Intent(getApplicationContext(),
+                    ViewPagerActivity.class));
+        }else if(position==10){
+            startActivity(new Intent(getApplicationContext(),
+                    ViewPagerTransformerActivity.class));
         }
     }
 
@@ -76,6 +85,8 @@ public class MainActivity extends ListActivity {
         data.add(createItem("DragListView", "可拖拽的ListView"));
         data.add(createItem("其他", ""));
         data.add(createItem("MaskView-Other","直接放一张图片做Mask"));
+        data.add(createItem("Custom-ViewPager","切换动画ViewPager"));
+        data.add(createItem("Custom-ViewPager","PagerTransformer"));
 
         return data;
     }
