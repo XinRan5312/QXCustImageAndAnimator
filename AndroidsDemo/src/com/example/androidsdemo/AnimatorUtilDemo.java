@@ -14,7 +14,7 @@ import cn.forward.androids.utils.AnimatorUtil;
 import cn.forward.androids.utils.Util;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-public class AnimatorUtilDemo extends Activity {
+public class AnimatorUtilDemo extends QxBaseActivity {
 
     public static enum Sex {
         FEMALE, // 性别，女

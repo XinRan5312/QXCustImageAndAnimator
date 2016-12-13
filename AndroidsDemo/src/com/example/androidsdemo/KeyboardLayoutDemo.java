@@ -15,7 +15,7 @@ import cn.forward.androids.views.KeyboardLayout;
 /**
  * Created by huangziwei on 16-6-27.
  */
-public class KeyboardLayoutDemo extends Activity {
+public class KeyboardLayoutDemo extends QxBaseActivity {
     private KeyboardLayout mKeyboardLayout;
     private View mEmojiView;
     private Button mEmojiBtn;

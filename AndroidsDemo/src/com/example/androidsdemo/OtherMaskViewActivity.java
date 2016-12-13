@@ -11,7 +11,7 @@ import com.example.androidsdemo.view.ZCDialogView;
 /**
  * Created by houqixin on 2016/12/8.
  */
-public class OtherMaskViewActivity extends Activity implements ZCDialogView.OnTimeOverListner{
+public class OtherMaskViewActivity extends QxBaseActivity implements ZCDialogView.OnTimeOverListner{
     private AlertDialog mDialog;
 
     @Override

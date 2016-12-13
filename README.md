@@ -17,3 +17,5 @@
   
   * DragListView  可拖拽的ListView
   2016-12-12:ViewPager的各种动画大集结
+
+  2016-12-13:侧滑返回Activity---SwipBackActivity,SwipLayout,DragLayoutHelper的使用：http://www.jianshu.com/p/92b884d8471c

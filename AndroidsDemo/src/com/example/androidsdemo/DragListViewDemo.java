@@ -16,7 +16,7 @@ import cn.forward.androids.views.DragListView;
  * 可拖拽的ListView
  * Created by huangziwei on 16-6-27.
  */
-public class DragListViewDemo extends Activity {
+public class DragListViewDemo extends QxBaseActivity {
 
     private DragListView mListView;
     private PluginListAdapter mAdapter;

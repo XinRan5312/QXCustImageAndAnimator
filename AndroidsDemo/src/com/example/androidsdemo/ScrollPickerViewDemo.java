@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class ScrollPickerViewDemo extends Activity {
+public class ScrollPickerViewDemo extends QxBaseActivity {
 
     // 初始月份
     private static final int ORIGIN_YEAR = 2000;

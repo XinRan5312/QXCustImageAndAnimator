@@ -3,7 +3,7 @@ package com.example.androidsdemo;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class MaskImageViewDemo extends Activity {
+public class MaskImageViewDemo extends QxBaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

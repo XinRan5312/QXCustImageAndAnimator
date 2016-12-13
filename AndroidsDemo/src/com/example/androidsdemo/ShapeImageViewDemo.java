@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 
 
-public class ShapeImageViewDemo extends Activity {
+public class ShapeImageViewDemo extends QxBaseActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
