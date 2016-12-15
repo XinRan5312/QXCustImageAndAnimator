@@ -71,6 +71,9 @@ public class MainActivity extends ListActivity {
         }else if(position==10){
             startActivity(new Intent(getApplicationContext(),
                     ViewPagerTransformerActivity.class));
+        }else if(position==11){
+            startActivity(new Intent(getApplicationContext(),
+                    ViewTreeObserverActivity.class));
         }
     }
 
@@ -87,6 +90,7 @@ public class MainActivity extends ListActivity {
         data.add(createItem("MaskView-Other","直接放一张图片做Mask"));
         data.add(createItem("Custom-ViewPager","切换动画ViewPager"));
         data.add(createItem("Custom-ViewPager","PagerTransformer"));
+        data.add(createItem("ViewTreeObserver","布局观察者"));
 
         return data;
     }
