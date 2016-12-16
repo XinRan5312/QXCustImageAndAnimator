@@ -14,6 +14,8 @@ import android.view.animation.AccelerateInterpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
 import android.view.ViewGroup.LayoutParams;
+
+import com.example.androidsdemo.QxBaseActivity;
 import com.example.androidsdemo.R;
 
 import java.lang.reflect.Field;
@@ -21,7 +23,7 @@ import java.lang.reflect.Field;
 /**
  * Created by houqixin on 2016/12/12.
  */
-public class ViewPagerActivity extends Activity {
+public class ViewPagerActivity extends QxBaseActivity {
 
     private ZCViewPager viewPager;
 

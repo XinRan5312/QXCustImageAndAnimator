@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- app主题样式 -->
+    <style name="AppTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--<item name="android:windowAnimationStyle">@style/default_animation</item>-->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- 默认Activity跳转动画 -->
+    <!--<style name="default_animation" parent="@android:style/Animation.Activity">-->
+        <!--<item name="android:activityOpenEnterAnimation">@anim/default_anim_in</item>-->
+        <!--<item name="android:activityOpenExitAnimation">@anim/anim_stay</item>-->
+        <!--<item name="android:activityCloseEnterAnimation">@anim/anim_stay</item>-->
+        <!--<item name="android:activityCloseExitAnimation">@anim/default_anim_out</item>-->
+    <!--</style>-->
     <style name="Dialog" parent="android:style/Theme.Dialog">
         <item name="android:background">#00000000</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">true</item>
+    </style>
+    <!-- 需要支持SwipeLayout右滑关闭页面的Activity都要添加此属性 -->
+    <style name="AppTheme_needBack" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
     </style>
 </resources>

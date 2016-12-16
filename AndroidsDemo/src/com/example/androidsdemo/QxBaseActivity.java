@@ -12,5 +12,12 @@ public class QxBaseActivity extends SwipeBackActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setSwipeBackEnable(true);
+        overridePendingTransition(R.anim.left_in,R.anim.right_out);
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+
     }
 }

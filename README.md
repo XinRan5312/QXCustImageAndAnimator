@@ -12,6 +12,7 @@
   * AnimatorUtil  对AnimatorSet进行封装，便以链式构建动画
   * KeyboardLayout  监听输入法键盘的弹起与隐藏
   * DragListView  可拖拽的ListView
-  2016-12-12:ViewPager的各种动画大集结
-  2016-12-13:侧滑返回Activity---SwipBackActivity,SwipLayout,DragLayoutHelper的使用：http://www.jianshu.com/p/92b884d8471c
-  2016-12-15:添加ViewTreeObserverActivity对 ViewTreeObserver相关接口属性进行练习
+  * 2016-12-12:ViewPager的各种动画大集结
+  * 2016-12-13:侧滑返回Activity---SwipBackActivity,SwipLayout,DragLayoutHelper的使用：http://www.jianshu.com/p/92b884d8471c
+       如果需要每个Activity支持SwipeBack退出必须给这个Activit加上这个Theme：AppTheme_needBack
+  * 2016-12-15:添加ViewTreeObserverActivity对 ViewTreeObserver相关接口属性进行练习

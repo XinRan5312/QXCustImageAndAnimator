@@ -17,6 +17,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 
 
+import com.example.androidsdemo.QxBaseActivity;
 import com.example.androidsdemo.R;
 import com.example.androidsdemo.viewpager.pageTransformer.AccordionTransformer;
 import com.example.androidsdemo.viewpager.pageTransformer.CubeTransformer;
@@ -34,7 +35,7 @@ import java.util.List;
 /**
  * Created by houqixin on 2016/12/12.
  */
-public class ViewPagerTransformerActivity extends Activity {
+public class ViewPagerTransformerActivity extends QxBaseActivity {
 
     ViewPager vPage = null;
     MyAdapter mAdapter = null;
