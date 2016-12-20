@@ -74,6 +74,9 @@ public class MainActivity extends ListActivity {
         }else if(position==11){
             startActivity(new Intent(getApplicationContext(),
                     ViewTreeObserverActivity.class));
+        }else if(position==12){
+            startActivity(new Intent(getApplicationContext(),
+                    PwdViewActivity.class));
         }
     }
 
@@ -91,7 +94,7 @@ public class MainActivity extends ListActivity {
         data.add(createItem("Custom-ViewPager","切换动画ViewPager"));
         data.add(createItem("Custom-ViewPager","PagerTransformer"));
         data.add(createItem("ViewTreeObserver","布局观察者"));
-
+        data.add(createItem("PasswordView","仿支付宝设置密码"));
         return data;
     }
 

@@ -33,4 +33,12 @@
         <attr name="outlineEnabled" format="boolean" />
         <attr name="outlineColor" format="color|reference" />
     </declare-styleable>
+    <declare-styleable name="ZCPayPasswordViewStyle">
+        <attr name="bg_drawable" format="integer"/>
+        <attr name="pwd_length" format="integer"/>
+        <attr name="splide_line_width" format="float"/>
+        <attr name="splide_line_color" format="color"/>
+        <attr name="pwd_text_color" format="color"/>
+        <attr name="pwd_text_size" format="dimension"/>
+    </declare-styleable>
 </resources>
