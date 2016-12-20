@@ -16,3 +16,4 @@
   * 2016-12-13:侧滑返回Activity---SwipBackActivity,SwipLayout,DragLayoutHelper的使用：http://www.jianshu.com/p/92b884d8471c
        如果需要每个Activity支持SwipeBack退出必须给这个Activit加上这个Theme：AppTheme_needBack
   * 2016-12-15:添加ViewTreeObserverActivity对 ViewTreeObserver相关接口属性进行练习
+  * 2016-12-20:添加PwdViewActivity对 高仿支付宝交易密码设置
